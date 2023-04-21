@@ -1,0 +1,13 @@
+server:
+  name: smsservice
+  port: 9024
+db:
+  mongodb:
+    db: 0
+    addr: 127.0.0.1:27017
+log:
+  level: "debug"
+  path: "./log/mlog.log"
+  max_size: 1000
+  max_age: 3600
+  max_backups: 5
